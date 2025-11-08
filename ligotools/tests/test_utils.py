@@ -25,7 +25,7 @@ def test_reqshift_frequency_shift():
     fshift = 50  # shift frequency
     sig = np.sin(2 * np.pi * f0 * t)
 
-    shifted = reqshift(sig, fshift=fshift, sample_rate=fs)
+    shifted = reqshift(sig, fshift = fshift, sample_rate = fs)
 
     # Check signal properties
     assert np.isrealobj(shifted), "Shifted signal should be real-valued"
