@@ -5,13 +5,13 @@ project:
   title: Homework 3 — Kireeti Chilakamarry
   description: "My MYST page for STAT 159 Homework 3"
   keywords: []
-  authors: 
+  authors:
       - name: Kireeti Chilakamarry
-          affiliation: 
-              - institution: University of California, Berkeley
+        affiliation: 
+            - institution: University of California, Berkeley
       - name: Ligo Scientific Collaboration
-          affiliation:
-              - institution: California Institute of Technology
+        affiliation: 
+            - institution: California Institute of Technology
         
   github: https://github.com/UCB-stat-159-f25/hw3-kireetichilakamarry
   binder: https://mybinder.org/v2/gh/UCB-stat-159-f25/hw3-kireetichilakamarry/045dc7ac295c7481de26f3e6bd11c8e67690772f?urlpath=lab%2Ftree%2FLOSC_Event_tutorial.ipynb
