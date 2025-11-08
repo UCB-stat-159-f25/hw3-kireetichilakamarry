@@ -42,7 +42,7 @@ def reqshift(data, fshift = 100, sample_rate = 4096):
     return z
 
 
-def plot_detector_data(det, strain_L1_whitenbp, pcolor, strain_H1_whitenbp, template_match, time, timemax, SNR, tevent, eventname, plottype, freqs, datafreq, template_fft, data_psd, fs, d_eff):
+def plot_detector_data(det, strain_whitenbp, pcolor, template_match, time, timemax, SNR, tevent, eventname, plottype, freqs, datafreq, template_fft, data_psd, fs, d_eff):
 
     # -- Plot the result
     plt.figure(figsize=(10,8))
