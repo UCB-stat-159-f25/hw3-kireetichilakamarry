@@ -3,10 +3,10 @@
 
 # Commands
 env :
-    conda env update -n ligo -f environment.yml 
+	conda env update -n ligo -f environment.yml 
 html : 
-    myst build --html
+	myst build --html
 clean : 
-    rm -f figures/*
-    rm -f audio/*
-    rm -f _build/*
+	rm -f figures/*
+	rm -f audio/*
+	rm -f _build/*
